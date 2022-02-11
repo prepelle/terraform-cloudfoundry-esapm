@@ -6,6 +6,7 @@ variable "cf_space" {
   description = "Cloudfoundry space name to deploy to"
   type        = string
 }
+variable "cf_api_url" {}
 variable "cf_domain" {
   description = "The Cloudfoundry regular app domain to use"
   type        = string
@@ -16,6 +17,7 @@ variable "cf_user" {
   type        = string
 }
 
+variable "cf_password" {}
 variable "elastic_broker" {
   description = "The Elastic broker to use"
   type        = string
