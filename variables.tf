@@ -13,7 +13,7 @@ variable "cf_domain" {
 }
 
 variable "cf_user" {
-  description = "The Cloudfoundry user to assign rights to the app to"
+  description = "The Cloudfoundry user"
   type        = string
 }
 
