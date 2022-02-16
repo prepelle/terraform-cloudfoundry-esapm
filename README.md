@@ -5,6 +5,8 @@ Creates an Elastic cluster with APM enabled and a Kibana configured for use with
 
 @see [Sample Application](https://github.com/ps-sarath/sre-demo-springboot) for an example of using 
 elastic apm.
+
+@see [wiki](https://github.com/ps-sarath/terraform-cloudfoundry-esapm/wiki) for documentation.
 ## Example usage
 
 ```hcl
